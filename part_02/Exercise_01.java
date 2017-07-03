@@ -21,7 +21,9 @@ public class Exercise_01 {
 
         System.out.print("Enter a degree in Celsius: ");
 
+        int degreesCelsius = input.nextInt();
 
+        System.out.println("Degree in Fahrenheit: "+ (9*(degreesCelsius/5) +32) );
         
     }
 }

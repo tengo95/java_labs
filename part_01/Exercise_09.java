@@ -10,7 +10,11 @@ package Part_01;
 public class Exercise_09 {
 
     public static void main(String[] strings) {
+        double width = 2.4;
+        double height = 6.4;
 
-        //...
+        System.out.println("Area: "+ width*height);
+        System.out.println("Perimter: "+ 2*(width + height) );
+
     }
 }

@@ -15,7 +15,7 @@ public class ComputePI {
         double pi = 0;
         double y = 1;
 
-        int loops = 90000000*2;
+        int loops = 90_000_000*2;
         int count = 0;
 
         for(int x=1; x < loops; x+=2) {

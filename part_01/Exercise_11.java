@@ -16,8 +16,14 @@ public class Exercise_11 {
 
     public static void main(String[] strings) {
 
-        //...
+        int population = 380_123_456;
 
+        int populationChange;
+
+        int yearInSec = 3*365*24*60*60;
+
+        populationChange = (yearInSec/6) - (yearInSec/12) + (yearInSec/40);
+        System.out.println(population += populationChange);
 
     }
 }

@@ -8,10 +8,13 @@ package Part_01;
  *
  */
 public class Exercise_10 {
-
     public static void main(String[] strings) {
 
-        //...
+        double distMiles = 12/1.6;
+        double time = (double) ( (30*60)+30 ) / 3600;
+        double mph;
+
+        System.out.println(mph = distMiles/time);
 
     }
 
